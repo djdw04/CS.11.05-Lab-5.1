@@ -4,7 +4,7 @@ public class ArrayUtility {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
-;
+        ;
     }
 
     public static int sum(int[] array) {
@@ -84,7 +84,7 @@ public class ArrayUtility {
     public static boolean linearSearchInt(int[] array, int num) {
         for (int i = 0; i < array.length; i++) {
             if (num == array[i]) {
-                    return true;
+                return true;
             }
         }
         return false;
